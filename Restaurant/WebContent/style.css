@@ -1,0 +1,70 @@
+//@charset "ISO-8859-1";
+
+/* img {
+	max-height: 100;
+} */
+
+#tabs {
+	background: #509EDA;
+	
+}
+
+
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+	margin-top: 20px;
+    margin-right: 20px;
+    flex: 3;
+    /* La propriété flex permet de définir la taille (proportion) des blocs (article et bloc (aside) sur le coté */
+}
+
+aside
+{
+	border: 2px solid #00a9fb;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px #1c1a19;
+	/* max-height: 220px; */
+	margin-top: 200px;
+	padding-left: 10px;
+	position: relative;
+	height: 220px;
+	weigth: 150px;
+	
+}
+
+plat
+{
+	margin-left: 200px;
+}
+
+#titre_aside
+{
+	color: #229bdd;
+	font-weight: bold;
+}
+
+.slide {
+	background-image:linear-gradient(blue, white);
+}
+
+#article {
+	height: 400px;
+	width: 300px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+

@@ -16,7 +16,7 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<title>Présentation restaurant</title>
+<title>Poissons</title>
 </head>
 <body>
 
@@ -61,7 +61,6 @@
 
 	<div id="tabs">
 		<ul class="nav nav-tabs" id="plats">
-			<li class="nav-item"><a class="nav-link" href="index.jsp">#</a></li>
 			<li class="nav-item"><a class="nav-link" href="entrees.jsp">Entrées</a></li>
 			<li class="nav-item"><a class="nav-link" href="salades.jsp">Salades</a></li>
 			<li class="nav-item"><a class="nav-link active" href="viandes.jsp">Viandes</a>
@@ -73,8 +72,8 @@
 	</div>
 
 	<section id="contains">
-		<article id="article">
-			<div>
+		 <article id="article">
+			<!-- <div>
 				<img src="Images/burger.png" alt="Burger" height="200" width="200" />
 				<h2>Le Burger du Chef</h2>
 				<p>
@@ -108,8 +107,8 @@
 					de terre au four)
 				</p>
 				</div>
-			</div>
-		</article>
+			</div> -->
+		</article> 
 		
 		<aside>
 			<h3 id="titre_aside">Chez Freedy</h3>

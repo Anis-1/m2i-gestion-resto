@@ -61,6 +61,7 @@
 
 	<div id="tabs">
 		<ul class="nav nav-tabs" id="plats">
+		<li class="nav-item"><a class="nav-link" href="index.jsp">#</a></li>
 			<li class="nav-item"><a class="nav-link" href="entrees.jsp">Entrées</a></li>
 			<li class="nav-item"><a class="nav-link" href="salades.jsp">Salades</a></li>
 			<li class="nav-item"><a class="nav-link active" href="viandes.jsp">Viandes</a>

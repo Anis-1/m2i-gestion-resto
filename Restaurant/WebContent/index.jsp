@@ -86,7 +86,7 @@
 				<img src="Images/entrecote.png" alt="Entrecote" height="200" width="200" />
 				<h2>L'entrecôte</h2>
 				<p>
-					Boeur Français </br> accompagnement au choix (frites, laiture ou pomme
+					Boeuf Français </br> accompagnement au choix (frites, laiture ou pomme
 					de terre au four)
 				</p>
 			</div>
@@ -100,14 +100,15 @@
 			</div>
 
 			<div>
-				<img src="Images/entrecote.png" alt="Entrecote" height="200" width="200" />
-				<div id="plat">
+				<p class="illustration" />
+				<img src="Images/entrecote.png"  class="pic" alt="Entrecote" height="200" width="200" />
+				<<!-- div id="plat"> -->
 				<h2>L'entrecôte</h2>
-				<p>
-					Boeur Français </br> accompagnement au choix (frites, laiture ou pomme
+				
+					Boeuf Français </br> accompagnement au choix (frites, laiture ou pomme
 					de terre au four)
 				</p>
-				</div>
+				<!-- </div> -->
 			</div>
 		</article>
 		

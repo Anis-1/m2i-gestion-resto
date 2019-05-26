@@ -5,7 +5,7 @@
 } */
 
 #tabs {
-	background: #509EDA;
+	background-color : #509EDA;
 	
 }
 
@@ -67,3 +67,12 @@ plat
 	overflow-y: auto;
 }
 
+.illustration {
+	overflow: hidden;
+	padding-left: 20px;
+}
+
+.illustration .pic {
+	float: left;
+	margin-left: -20px;
+}

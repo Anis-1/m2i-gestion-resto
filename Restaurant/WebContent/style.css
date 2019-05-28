@@ -1,20 +1,14 @@
 //@charset "ISO-8859-1";
 
-/* img {
-	max-height: 100;
-} */
-
-#tabs {
-	background-color : #509EDA;
+.tabs {
+	/* background-color : #509EDA; */
+	padding-left: 15px;
+	padding-right: 15px;
 	
 }
 
-
-
 section
 {
-    display: flex;
-    margin-bottom: 20px;
 }
 
 article, aside
@@ -22,32 +16,18 @@ article, aside
     text-align: justify;
 }
 
-article
-{
-	margin-top: 20px;
-    margin-right: 20px;
-    flex: 3;
-    /* La propriété flex permet de définir la taille (proportion) des blocs (article et bloc (aside) sur le coté */
-}
 
 aside
 {
 	border: 2px solid #00a9fb;
 	border-radius: 5px;
 	box-shadow: 0px 2px 5px #1c1a19;
-	/* max-height: 220px; */
-	margin-top: 200px;
 	padding-left: 10px;
-	position: relative;
-	height: 220px;
-	weigth: 150px;
+	max-height: 220px;
+	margin-top: 100px;
 	
 }
 
-plat
-{
-	margin-left: 200px;
-}
 
 #titre_aside
 {
@@ -56,23 +36,54 @@ plat
 }
 
 .slide {
-	background-image:linear-gradient(blue, white);
+	background-image:linear-gradient(rgba(23,70,227,0.7), rgba(23,70,227,0));
+	height:400px;
+	width:100%;
+	z-index: 9;
+	position:absolute;
+	top: 0;
+	left: 0;
 }
 
 #article {
 	height: 400px;
-	width: 300px;
 	overflow: scroll;
 	overflow-x: hidden;
 	overflow-y: auto;
+	scrollbar-width:none; /* cache la scrollbar dans Mozilla */
 }
+
+/* cache la scrollbar webkit */
+#article::-webkit-scrollbar { width: 0 !important }
 
 .illustration {
-	overflow: hidden;
-	padding-left: 20px;
 }
 
-.illustration .pic {
-	float: left;
-	margin-left: -20px;
+.texte-plat{
+}
+
+.carousel-control-prev {
+	z-index:10;
+}
+
+.carousel-control-next {
+	z-index:10;
+}
+
+
+footer {
+	background-image:linear-gradient(rgba(182,184,191,0), rgba(182,184,191,1));
+	background-color: black;
+	height: 50px;
+	color: white;
+}
+
+.menu-element
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+li {
+	background-color : #509EDA;
 }

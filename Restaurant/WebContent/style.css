@@ -78,6 +78,13 @@ footer {
 	color: white;
 }
 
+header {
+	background-image:linear-gradient(rgba(182,184,191,0), rgba(182,184,191,1));
+	background-color: black;
+	height: 50px;
+	color: white;
+}
+
 .menu-element
 {
 	margin-top: 20px;
@@ -85,5 +92,5 @@ footer {
 }
 
 li {
-	background-color : #509EDA;
+	background-color : #66acdf;
 }

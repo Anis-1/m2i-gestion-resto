@@ -19,10 +19,11 @@
 <title>Viandes</title>
 </head>
 <body>
-	<header></header>
+	
 	
 	
 	<div class="container">
+	<header>HEADER</header>
 
 		<div id="carouselExampleIndicators" class="carousel"
 			data-ride="carousel">
@@ -216,9 +217,10 @@
 
 
 		</section>
+		<footer>FOOTER</footer>
 	</div>
 	
-	<footer></footer>
+	
 	
 	
 </body>

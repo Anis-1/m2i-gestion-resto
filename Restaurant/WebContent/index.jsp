@@ -19,11 +19,12 @@
 <title>Présentation restaurant</title>
 </head>
 <body>
-	<header></header>
+	
 
 
 	<div class="container">
-
+	<header>HEADER</header>
+	
 		<div id="carouselExampleIndicators" class="carousel"
 			data-ride="carousel">
 			<div class="slide"></div>
@@ -177,9 +178,10 @@
 
 
 		</section>
+		<footer>FOOTER !!!!!</footer>
 	</div>
 
-	<footer>FOOTER !!!!!</footer>
+	
 
 
 </body>
